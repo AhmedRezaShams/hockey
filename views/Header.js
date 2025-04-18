@@ -1,4 +1,5 @@
-import Button from '@/components/button'
+
+import { TicketButton } from '@/components/button'
 import React from 'react'
 
 function Header() {
@@ -16,8 +17,8 @@ function Header() {
 
             </div>
             <div className='w-[196] h-[57] flex'>
-                <search></search>
-                <Button size='lg'/>
+                
+                <TicketButton children={"Get Ticket"} className={"w-[148] h-[57]" }/>
             </div>
         </div>
     )
